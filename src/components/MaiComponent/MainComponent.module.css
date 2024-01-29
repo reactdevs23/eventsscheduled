@@ -52,6 +52,10 @@
   border-right: 4px solid var(--textColor);
   text-transform: uppercase;
   padding-right: var(--space);
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .textContainer {
   display: flex;
