@@ -23,7 +23,7 @@
 }
 .eventsContainer {
   background: var(--primaryColor);
-  padding: 40px;
+  padding: 50px;
   border-radius: 60px;
 }
 .event {
@@ -32,7 +32,15 @@
   --space: 40px;
   gap: var(--space);
   padding: 50px 0;
-  border-bottom: 3px solid var(--textColor);
+  border-bottom: 2px solid var(--textColor);
+}
+.event:first-child {
+  padding-top: 0;
+}
+
+.event:last-child {
+  border: none;
+  padding-bottom: 0;
 }
 
 .date {
@@ -41,7 +49,7 @@
   text-align: center;
   color: var(--textColor);
   line-height: 100%;
-  border-right: 3px solid var(--textColor);
+  border-right: 4px solid var(--textColor);
   text-transform: uppercase;
   padding-right: var(--space);
 }
