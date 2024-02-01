@@ -1,5 +1,6 @@
 .mainWrapper {
   min-height: 100vh;
+  background: var(--bgColor);
 }
 .wrapper {
   max-width: 1199px;
@@ -16,13 +17,13 @@
   font-weight: 900;
   text-transform: uppercase;
   text-align: center;
-  color: var(--primaryColor);
+  color: var(--headingColor);
 }
 .heading span {
-  color: var(--secondaryColor);
+  color: var(--subHeadingColor);
 }
 .eventsContainer {
-  background: var(--primaryColor);
+  background: var(--containerBg);
   padding: 50px;
   border-radius: 60px;
 }
@@ -75,7 +76,7 @@
 }
 
 .link {
-  color: var(--secondaryColor);
+  color: var(--linkColor);
   font-size: 30px;
   text-align: center;
   font-weight: 700;

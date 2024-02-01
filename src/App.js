@@ -4,10 +4,13 @@ function App() {
   const data = {
     fontFamily: "'Space Mono', monospace",
     headerFontFamily: "'Lato', sans-serif",
-    primaryColor: "#4C6444",
-    secondaryColor: "#6B4B2E",
+    bgColor: "#FFFBEB",
+    containerBg: "#4C6444",
+    headingColor: "#4C6444",
+    subHeadingColor: "#6B4B2E",
+    linkColor: "#6B4B2E",
     textColor: "#fff",
-    background: "#FFFBEB",
+
     heading: "Events <br/> <span>Scheduled</span>",
     events: [
       {
@@ -31,8 +34,11 @@ function App() {
   return (
     <div
       style={{
-        "--primaryColor": data.primaryColor,
-        "--secondaryColor": data.secondaryColor,
+        "--bgColor": data.bgColor,
+        "--containerBg": data.containerBg,
+        "--headingColor": data.headingColor,
+        "--subHeadingColor": data.subHeadingColor,
+        "--linkColor": data.linkColor,
         "--textColor": data.textColor,
         fontFamily: data.fontFamily,
       }}

@@ -2,13 +2,13 @@ import React from "react";
 import styles from "./MainComponent.module.css";
 const MainComponent = ({
   headerFontFamily,
-  background,
+
   heading,
   events,
   link,
 }) => {
   return (
-    <div className={styles.mainWrapper} style={{ background: background }}>
+    <div className={styles.mainWrapper}>
       <div className={styles.wrapper}>
         <h2
           style={{ fontFamily: headerFontFamily }}
